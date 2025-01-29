@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.29"
+						"string" : "3.14"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "projekt-2-CramY2001",
+					"name" : "cpp-project",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "projekt-2-CramY2001::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-projekt-2-CramY2001-Debug-44c9ba986a91a8384480.json",
-					"name" : "projekt-2-CramY2001",
+					"id" : "cpp-project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp-project-Debug-26e9c2119a3711850346.json",
+					"name" : "cpp-project",
 					"projectIndex" : 0
 				}
 			]

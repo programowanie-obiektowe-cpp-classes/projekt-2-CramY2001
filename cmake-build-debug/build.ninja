@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: projekt-2-CramY2001
+# Project: cpp-project
 # Configurations: Debug
 # =============================================================================
 
@@ -41,66 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target projekt-2-CramY2001
+# Object build statements for EXECUTABLE target cpp-project
 
 
 #############################################
-# Order-only phony target for projekt-2-CramY2001
+# Order-only phony target for cpp-project
 
-build cmake_object_order_depends_target_projekt-2-CramY2001: phony || .
+build cmake_object_order_depends_target_cpp-project: phony || .
 
-build CMakeFiles/projekt-2-CramY2001.dir/src/main.cpp.obj: CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/main.cpp || cmake_object_order_depends_target_projekt-2-CramY2001
-  DEP_FILE = CMakeFiles\projekt-2-CramY2001.dir\src\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -isystem C:/SMFL/SFML-2.5.1/include
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
-  OBJECT_FILE_DIR = CMakeFiles\projekt-2-CramY2001.dir\src
+build CMakeFiles/cpp-project.dir/src/Enemy.cpp.obj: CXX_COMPILER__cpp-project_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Enemy.cpp || cmake_object_order_depends_target_cpp-project
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\cpp-project.dir\src\Enemy.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -IC:/SFML/SFML-2.5.1/lib/cmake/SFML/include -isystem C:/SFML/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-project.dir\src
 
-build CMakeFiles/projekt-2-CramY2001.dir/src/Game.cpp.obj: CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Game.cpp || cmake_object_order_depends_target_projekt-2-CramY2001
-  DEP_FILE = CMakeFiles\projekt-2-CramY2001.dir\src\Game.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -isystem C:/SMFL/SFML-2.5.1/include
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
-  OBJECT_FILE_DIR = CMakeFiles\projekt-2-CramY2001.dir\src
+build CMakeFiles/cpp-project.dir/src/Game.cpp.obj: CXX_COMPILER__cpp-project_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Game.cpp || cmake_object_order_depends_target_cpp-project
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\cpp-project.dir\src\Game.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -IC:/SFML/SFML-2.5.1/lib/cmake/SFML/include -isystem C:/SFML/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-project.dir\src
 
-build CMakeFiles/projekt-2-CramY2001.dir/src/Player.cpp.obj: CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Player.cpp || cmake_object_order_depends_target_projekt-2-CramY2001
-  DEP_FILE = CMakeFiles\projekt-2-CramY2001.dir\src\Player.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -isystem C:/SMFL/SFML-2.5.1/include
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
-  OBJECT_FILE_DIR = CMakeFiles\projekt-2-CramY2001.dir\src
+build CMakeFiles/cpp-project.dir/src/Player.cpp.obj: CXX_COMPILER__cpp-project_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Player.cpp || cmake_object_order_depends_target_cpp-project
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\cpp-project.dir\src\Player.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -IC:/SFML/SFML-2.5.1/lib/cmake/SFML/include -isystem C:/SFML/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-project.dir\src
 
-build CMakeFiles/projekt-2-CramY2001.dir/src/Enemy.cpp.obj: CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Enemy.cpp || cmake_object_order_depends_target_projekt-2-CramY2001
-  DEP_FILE = CMakeFiles\projekt-2-CramY2001.dir\src\Enemy.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -isystem C:/SMFL/SFML-2.5.1/include
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
-  OBJECT_FILE_DIR = CMakeFiles\projekt-2-CramY2001.dir\src
+build CMakeFiles/cpp-project.dir/src/Projectile.cpp.obj: CXX_COMPILER__cpp-project_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Projectile.cpp || cmake_object_order_depends_target_cpp-project
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\cpp-project.dir\src\Projectile.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -IC:/SFML/SFML-2.5.1/lib/cmake/SFML/include -isystem C:/SFML/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-project.dir\src
 
-build CMakeFiles/projekt-2-CramY2001.dir/src/Projectile.cpp.obj: CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/Projectile.cpp || cmake_object_order_depends_target_projekt-2-CramY2001
-  DEP_FILE = CMakeFiles\projekt-2-CramY2001.dir\src\Projectile.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -isystem C:/SMFL/SFML-2.5.1/include
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
-  OBJECT_FILE_DIR = CMakeFiles\projekt-2-CramY2001.dir\src
+build CMakeFiles/cpp-project.dir/src/main.cpp.obj: CXX_COMPILER__cpp-project_unscanned_Debug C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/src/main.cpp || cmake_object_order_depends_target_cpp-project
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\cpp-project.dir\src\main.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/include -IC:/SFML/SFML-2.5.1/lib/cmake/SFML/include -isystem C:/SFML/SFML-2.5.1/include
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp-project.dir\src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target projekt-2-CramY2001
+# Link build statements for EXECUTABLE target cpp-project
 
 
 #############################################
-# Link the executable projekt-2-CramY2001.exe
+# Link the executable cpp-project.exe
 
-build projekt-2-CramY2001.exe: CXX_EXECUTABLE_LINKER__projekt-2-CramY2001_Debug CMakeFiles/projekt-2-CramY2001.dir/src/main.cpp.obj CMakeFiles/projekt-2-CramY2001.dir/src/Game.cpp.obj CMakeFiles/projekt-2-CramY2001.dir/src/Player.cpp.obj CMakeFiles/projekt-2-CramY2001.dir/src/Enemy.cpp.obj CMakeFiles/projekt-2-CramY2001.dir/src/Projectile.cpp.obj | C$:/SMFL/SFML-2.5.1/lib/libsfml-graphics-d.a C$:/SMFL/SFML-2.5.1/lib/libsfml-window-d.a C$:/SMFL/SFML-2.5.1/lib/libsfml-system-d.a
+build cpp-project.exe: CXX_EXECUTABLE_LINKER__cpp-project_Debug CMakeFiles/cpp-project.dir/src/Enemy.cpp.obj CMakeFiles/cpp-project.dir/src/Game.cpp.obj CMakeFiles/cpp-project.dir/src/Player.cpp.obj CMakeFiles/cpp-project.dir/src/Projectile.cpp.obj CMakeFiles/cpp-project.dir/src/main.cpp.obj | C$:/SFML/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -g
-  LINK_LIBRARIES = C:/SMFL/SFML-2.5.1/lib/libsfml-graphics-d.a  C:/SMFL/SFML-2.5.1/lib/libsfml-window-d.a  C:/SMFL/SFML-2.5.1/lib/libsfml-system-d.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\projekt-2-CramY2001.dir
+  LINK_LIBRARIES = C:/SFML/SFML-2.5.1/lib/libsfml-system-s-d.a  C:/SFML/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/SFML/SFML-2.5.1/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_PATH = -LC:/SFML/SFML-2.5.1/lib/cmake/SFML/lib
+  OBJECT_DIR = CMakeFiles\cpp-project.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = projekt-2-CramY2001.exe
-  TARGET_IMPLIB = libprojekt-2-CramY2001.dll.a
-  TARGET_PDB = projekt-2-CramY2001.exe.dbg
+  TARGET_FILE = cpp-project.exe
+  TARGET_IMPLIB = libcpp-project.dll.a
+  TARGET_PDB = cpp-project.exe.dbg
 
 
 #############################################
@@ -128,7 +134,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build projekt-2-CramY2001: phony projekt-2-CramY2001.exe
+build cpp-project: phony cpp-project.exe
 
 # =============================================================================
 # Folder targets.
@@ -138,7 +144,7 @@ build projekt-2-CramY2001: phony projekt-2-CramY2001.exe
 #############################################
 # Folder: C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug
 
-build all: phony projekt-2-CramY2001.exe
+build all: phony cpp-project.exe
 
 # =============================================================================
 # Built-in targets
@@ -147,14 +153,14 @@ build all: phony projekt-2-CramY2001.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake C$:/SMFL/SFML-2.5.1/lib/cmake/SFML/SFMLSharedTargets.cmake C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake G$:/Clion/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

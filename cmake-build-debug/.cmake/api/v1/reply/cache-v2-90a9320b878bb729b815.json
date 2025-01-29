@@ -286,150 +286,6 @@
 			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
 		},
 		{
-			"name" : "CMAKE_C_COMPILER",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "G:/Clion/CLion 2024.2.3/bin/mingw/bin/gcc.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_AR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "G:/Clion/CLion 2024.2.3/bin/mingw/bin/gcc-ar.exe"
-		},
-		{
-			"name" : "CMAKE_C_COMPILER_RANLIB",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "G:/Clion/CLion 2024.2.3/bin/mingw/bin/gcc-ranlib.exe"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during all build types."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_DEBUG",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during DEBUG builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-g"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-Os -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_RELEASE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during RELEASE builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O3 -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-O2 -g -DNDEBUG"
-		},
-		{
-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
-		},
-		{
 			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
@@ -659,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Projekt2"
+			"value" : "C:/Program Files (x86)/cpp-project"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +731,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "projekt-2-CramY2001"
+			"value" : "cpp-project"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,40 +1126,32 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Projekt2_BINARY_DIR",
+			"name" : "FreeType_LIB",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : "Path to a library."
 				}
 			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug"
+			"type" : "FILEPATH",
+			"value" : "C:/SFML/SFML-2.5.1/lib/libfreetype.a"
 		},
 		{
-			"name" : "Projekt2_IS_TOP_LEVEL",
+			"name" : "SFML_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
+					"value" : "The directory containing a CMake configuration file for SFML."
 				}
 			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Projekt2_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001"
+			"type" : "PATH",
+			"value" : "C:/SFML/SFML-2.5.1/lib/cmake/SFML"
 		},
 		{
 			"name" : "SFML_DOC_DIR",
@@ -1330,7 +1178,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "projekt-2-CramY2001_BINARY_DIR",
+			"name" : "cpp-project_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1342,7 +1190,7 @@
 			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug"
 		},
 		{
-			"name" : "projekt-2-CramY2001_IS_TOP_LEVEL",
+			"name" : "cpp-project_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1354,7 +1202,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "projekt-2-CramY2001_SOURCE_DIR",
+			"name" : "cpp-project_SOURCE_DIR",
 			"properties" : 
 			[
 				{

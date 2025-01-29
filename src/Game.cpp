@@ -1,4 +1,4 @@
-#include "../include/Game.h"
+#include "Game.h"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -115,13 +115,11 @@ void Game::spawnEnemies()
 {
     for (int i = 0; i < 5; ++i)
     {
-        for (int j = 0; j < 1; ++j)
+        for (int j = 0; j < 3; ++j)
         {
             enemies.emplace_back(sf::Vector2f(100 + i * 120, 50 + j * 60));
         }
     }
-    // Zmniejsz cooldown wrogów przy każdym nowym poziomie
-    enemyShootCooldown = max(0.5f, enemyShootCooldown - 0.2f);  // Minimum 0.5 sekundy
     level++;
 }
 
@@ -135,7 +133,7 @@ void Game::update()
     for (auto& enemy : enemies)
     {
         enemy.update();
-        if (rand() % 100 < (1 + (level / 20))) // Większa szansa na strzał na wyższych poziomach
+        if (rand() % 1000 < level) // Większa szansa na strzał na wyższych poziomach
         {
             enemy.dropBomb(enemyBombs);
         }

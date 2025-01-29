@@ -1,16 +1,14 @@
-cmake_minimum_required(VERSION 3.29)
-project(projekt-2-CramY2001)
+cmake_minimum_required(VERSION 3.14)
+project(cpp-project CXX)
 
-set(CMAKE_CXX_STANDARD 20)
-include_directories(${CMAKE_SOURCE_DIR}/include)
-set(SFML_DIR "C:/SMFL/SFML-2.5.1/lib/cmake/SFML") # Dostosuj ścieżkę do lokalizacji SFML na twoim komputerze
-add_executable(projekt-2-CramY2001
-        src/main.cpp
-        src/Game.cpp
-        src/Player.cpp
-        src/Enemy.cpp
-        src/Projectile.cpp
-        src/Projectile.cpp
-)
-find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
-target_link_libraries(projekt-2-CramY2001 sfml-graphics sfml-window sfml-system)
+file(GLOB_RECURSE SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")
+add_executable(cpp-project ${SRC_FILES})
+target_include_directories(cpp-project PUBLIC "${CMAKE_SOURCE_DIR}/include")
+set_target_properties(cpp-project PROPERTIES CXX_STANDARD 23)
+
+set(SFML_STATIC_LIBRARIES TRUE)
+set(CMAKE_PREFIX_PATH "C:/SFML/SFML-2.5.1/lib/cmake/")
+find_package(SFML 2.5 COMPONENTS system window graphics REQUIRED)
+target_include_directories(cpp-project PUBLIC "${SFML_DIR}/include")
+target_link_directories(cpp-project PUBLIC "${SFML_DIR}/lib")
+target_link_libraries(cpp-project sfml-system sfml-window sfml-graphics)

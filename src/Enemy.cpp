@@ -1,4 +1,4 @@
-#include "../include/Enemy.h"
+#include "Enemy.h"
 
 using namespace std;
 
@@ -21,7 +21,7 @@ void Enemy::update()
 void Enemy::dropBomb(vector<Projectile>& bombs)
 {
     // Tworzenie nowego pocisku (bomby) na pozycji wroga
-    bombs.emplace_back(shape.getPosition() + sf::Vector2f(0, -40), 4);
+    bombs.emplace_back(shape.getPosition() + sf::Vector2f(0, -20), 4);
 }
 
 void Enemy::destroy()

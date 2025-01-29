@@ -1,4 +1,4 @@
-#include "../include/Projectile.h"
+#include "Projectile.h"
 
 using namespace std;
 
