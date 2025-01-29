@@ -35,7 +35,7 @@ Game::Game()
     gameOverText.setPosition(200, 250);
 
     spawnEnemies();
-    srand(static_cast<unsigned>(std::time(nullptr)));
+    srand(static_cast<unsigned>(time(nullptr)));
 }
 
 void Game::run()
@@ -154,10 +154,10 @@ void Game::update()
 
     playerProjectiles.erase(remove_if(playerProjectiles.begin(), playerProjectiles.end(), [](const Projectile& p)
     {
-        return !p.isInBounds();
+        return !p.isInBounds() || p.isDestroyed();
     }), playerProjectiles.end());
 
-    enemyBombs.erase(std::remove_if(enemyBombs.begin(), enemyBombs.end(), [](const Projectile& b)
+    enemyBombs.erase(remove_if(enemyBombs.begin(), enemyBombs.end(), [](const Projectile& b)
     {
         return !b.isInBounds() || b.isDestroyed();
     }), enemyBombs.end());
@@ -200,30 +200,5 @@ void Game::checkCollisions()
             player.takeDamage();  // Gracz traci życie
             bomb.destroy();       // Bomba zostaje zniszczona po trafieniu gracza
         }
-    }
-
-    playerProjectiles.erase(remove_if(playerProjectiles.begin(), playerProjectiles.end(), [](const Projectile& p)
-    {
-        return !p.isInBounds() || p.isDestroyed();
-    }), playerProjectiles.end());
-
-    enemyBombs.erase(std::remove_if(enemyBombs.begin(), enemyBombs.end(), [](const Projectile& b)
-    {
-        return !b.isInBounds() || b.isDestroyed();
-    }), enemyBombs.end());
-
-    enemies.erase(remove_if(enemies.begin(), enemies.end(), [](const Enemy& e)
-    {
-        return e.isDestroyed();
-    }), enemies.end());
-
-    if (enemies.empty())
-    {
-        spawnEnemies();
-    }
-
-    if (player.getHealth() <= 0)
-    {
-        isGameOver = true;
     }
 }
