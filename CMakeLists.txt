@@ -1,7 +1,16 @@
-cmake_minimum_required(VERSION 3.14)
-project(cpp-project CXX)
+cmake_minimum_required(VERSION 3.29)
+project(Projekt2)
 
-file(GLOB_RECURSE SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")
-add_executable(cpp-project ${SRC_FILES})
-target_include_directories(cpp-project PUBLIC "${CMAKE_SOURCE_DIR}/include")
-set_target_properties(cpp-project PROPERTIES CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
+set(SFML_DIR "C:/SMFL/SFML-2.5.1/lib/cmake/SFML") # Dostosuj ścieżkę do lokalizacji SFML na twoim komputerze
+add_executable(Projekt2 main.cpp
+        Projectile.h
+        Enemy.h
+        Player.h
+        Game.h
+        Game.cpp
+        Player.cpp
+        Enemy.cpp
+        Projectile.cpp)
+find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+target_link_libraries(Projekt2 sfml-graphics sfml-window sfml-system)
