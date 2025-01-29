@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug"
+			"value" : "c:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders"
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Projekt2"
+			"value" : "projekt-2-CramY2001"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders/cmake-build-debug"
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug"
 		},
 		{
 			"name" : "Projekt2_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Szymek/Documents/GitHub/Space invaders/Space-invaders"
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001"
 		},
 		{
 			"name" : "SFML_DOC_DIR",
@@ -1328,6 +1328,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "projekt-2-CramY2001_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001/cmake-build-debug"
+		},
+		{
+			"name" : "projekt-2-CramY2001_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "projekt-2-CramY2001_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/Szymek/Documents/GitHub/projekt-2-CramY2001"
 		}
 	],
 	"kind" : "cache",

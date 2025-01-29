@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Projekt2
+# Project: projekt-2-CramY2001
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Projekt2_unscanned_Debug
+rule CXX_COMPILER__projekt-2-CramY2001_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}"G:\Clion\CLion 2024.2.3\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__Projekt2_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Projekt2_Debug
+rule CXX_EXECUTABLE_LINKER__projekt-2-CramY2001_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "G:\Clion\CLion 2024.2.3\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "G:\Clion\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Szymek\Documents\GitHub\Space invaders\Space-invaders" -B"C:\Users\Szymek\Documents\GitHub\Space invaders\Space-invaders\cmake-build-debug"
+  command = "G:\Clion\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Szymek\Documents\GitHub\projekt-2-CramY2001 -BC:\Users\Szymek\Documents\GitHub\projekt-2-CramY2001\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
